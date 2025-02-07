@@ -1,0 +1,101 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #222; /* Sleeker dark gray */
+    color: #f1f1f1;
+    line-height: 1.8;
+    padding-bottom: 4rem;
+}
+
+/* Header Styling */
+h1.display-4 {
+    font-size: 3.5rem;
+    color: #f2f2f2;
+    margin-top: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Centered Content */
+.text-center {
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Image Styling */
+.soccer-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 1.5rem 0;
+}
+
+    .soccer-images img {
+        border-radius: 12px;
+        width: 300px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+    }
+
+        .soccer-images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.25);
+        }
+
+/* Paragraph Styling */
+.soccer-description {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: #e6e6e6;
+}
+
+    .soccer-description p {
+        margin: 1rem 0;
+        font-size: 1.15rem;
+        letter-spacing: 0.5px;
+        font-weight: 500;
+    }
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #f1f1f1;
+    padding: 1rem;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 0.9rem;
+    border-top: 2px solid #ffcc00;
+}
+
+/* Navigation Button Styling */
+nav {
+    text-align: center;
+    margin: 2rem;
+}
+
+    nav a {
+        display: inline-block;
+        text-decoration: none;
+        background-color: #ff6600;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: background-color 0.3s, transform 0.2s, color 0.2s;
+    }
+
+        nav a:hover {
+            background-color: #ff9933;
+            transform: translateY(-3px);
+        }
